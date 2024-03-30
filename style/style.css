@@ -1,0 +1,258 @@
+/* CSS untuk membuat gambar dan tampilan lebih menarik */
+
+* {
+    text-decoration: none;
+    margin:0px;
+    padding: 0px;   /*ruang*/
+}
+
+/*tampilan login*/
+.login-container {              /*mengatur container dari tampilan login*/
+    flex: 0.3;
+    padding: 50px;
+    width: 100%;
+    background-color: #bcb4a5;
+    border-radius: 70px;
+    box-shadow: 0 0 10px rgba(218, 83, 83, 0.1);
+}
+.login-container h1 {   
+    margin-top: 0;
+    font-size: 25px;
+    color: #7d2f04;
+}
+.login-container label {            /*mengatur container label dari tampilan login*/
+    display: block;
+    margin-bottom: 10px;
+    color: #503310;
+}
+.login-container input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #613907;
+}
+.login-container button {           /*mengatur container button dari tampilan login*/
+    width: 100%;
+    padding: 10px;              
+    border: none;
+    border-radius: 5px;
+    background-color: #593c2c;
+    color: rgb(235, 229, 229);
+    cursor: pointer;
+}
+
+        /*mengatur bagian body*/
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.wrapper{
+    width: 1100px;
+    margin: auto;
+    position: relative;      /*mengatur properti posisi elemen yang ada di kelas wrapper*/
+
+}
+
+.logo a{            /*mengatur bagian atas*/
+    font-size: 50 px;
+    font-weight: 800;
+    float: left;
+    font-family: courier;                /*pengaturan teksnya*/
+    color:rgb(232, 222, 46);
+}
+
+.menu {             /*mengatur bagian menu*/
+    float: right;
+}
+
+nav{
+    width: 100%;
+    margin: auto;   /*berikan jarak luar */
+    display: flex;
+    line-height: 80px;
+    position:sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #4f3941;
+    z-index: 1;
+    border-bottom: 1px solid grey;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav ul li{
+    float: left;
+}
+
+nav ul li a{            /*mengatur bagian huruf (menu)*/
+    color: rgb(124, 239, 0);
+    font-weight:bold ;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration:none ;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+img{
+    width: 100%;
+    height: auto;
+    border-bottom-left-radius: 7px;
+    border-top-right-radius: 7px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.hover img {       /*edit untuk memperbesar gambar*/
+    transform: scale(1.1);
+}
+
+
+section{
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+                                /*mengatur dari setiap heading maupun paragaraf*/
+.kolom{
+    margin-top: 50px;
+    margin-bottom: 50 px;
+}
+
+.kolom .deskripsi {
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'comic sans-ms';
+    color:rgb(158, 133, 70);
+}
+
+h1{
+    font-family:'comic sans-ms';
+    font-weight: 800;
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: rgb(150, 82, 9);
+    width: 100%;
+    line-height: 50px;
+}
+
+h2{
+    font-family:'comic sans-ms';
+    font-weight: 800;
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: blue;
+    width: 100%;
+    line-height: 50px;
+}
+
+a.tbl-biru{
+    background: rgb(210, 162, 58);
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: rgb(4, 3, 1);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover{
+    background: rgb(234, 217, 38);
+    text-decoration: none;
+}
+
+a.tbl-pink{
+    background: rgb(210, 162, 58);
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: rgb(4, 3, 1);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-pink:hover{                           /*mengatur warna dari tombol agar berubah warnaa*/
+    background: rgb(136, 255, 0);
+    text-decoration: none;
+}
+
+p{
+    margin: 10px 0px 10px 0px;
+    padding:10px 0px 10px 0px; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;   
+}
+
+.tengah{
+    text-align: center;
+    width: 100%;
+}
+
+.choose-list{
+width: 100%;
+position: relative;
+display: flex;
+flex-wrap: wrap;
+}                               /*mengatur ketentuan / posisi gambar yang ada di choose*/
+
+.gambar-karir{
+    width: 20%;
+    margin: 0 auto;
+}
+
+.gambar-karir img{
+    width: 80%;
+    border-radius: 50%;
+}
+
+.gambar-karir p{
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    color: rgb(163, 127, 8);
+}
+
+#kontak{
+    background: rgba(150, 104, 26, 0.373);
+    padding: 50px 0px 50px 0px;
+}
+
+.footer{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-section{
+    width: 20%;
+    margin: 0 auto;
+}
+
+h3{
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 30px;
+    color:rgb(76, 41, 12);
+    width: 100%;
+    line-height: 50px;
+}                   
+
+#copyright{             /*mengatur bagian copyriht*/
+    text-align: center;
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    margin-top: 5px;
+}
+
+
